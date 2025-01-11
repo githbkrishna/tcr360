@@ -5,15 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Build Your LifeStyle | GYM</title>
-    <!-- CSS -->
-    <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
-        rel="stylesheet"
-    />
+    <!-- bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Swiper Js -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
@@ -70,8 +69,8 @@
     </header>
     <!-- End Header -->
 
-    <!-- Trainer -->
-    <div class="section" id="trainer">
+    <!-- image -->
+    <section class="section" id="image">
         <div class="swiper-container image-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="https://images.pexels.com/photos/669584/pexels-photo-669584.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
@@ -81,27 +80,28 @@
                 <div class="swiper-slide"><img src="https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
             </div>
         </div>
-    </div>
-    <!-- End Trainer -->
+    </section>
+    <!-- End image -->
    
     <!-- Video Carousel -->
-    <div class="section" id="testimonial">
+    <section class="section" id="video">
         <h2 class="text-center mb-4">Video Carousel</h2>
         <div class="d-flex justify-content-center align-items-center gap-4">
             <div class="video-carousel-item">
-                <iframe src="https://www.youtube.com/embed/ihSGXbXwJMM" width="400" height="250" frameborder="0" allow="autoplay"></iframe>
+                <iframe src="https://www.youtube.com/embed/ihSGXbXwJMM" frameborder="0" allow="autoplay"></iframe>
             </div>
             <div class="video-carousel-item playing">
-                <iframe src="https://www.youtube.com/embed/Y5RtQ4cawVk" width="400" height="250" frameborder="0"></iframe>
+                <iframe src="https://www.youtube.com/embed/Y5RtQ4cawVk" frameborder="0"></iframe>
             </div>
             <div class="video-carousel-item">
-                <iframe src="https://www.youtube.com/embed/o9zCgPtsups" width="400" height="250" frameborder="0"></iframe>
+                <iframe src="https://www.youtube.com/embed/o9zCgPtsups" frameborder="0"></iframe>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Video Carousel -->
 
     <!-- Contact Form Section -->
-    <div class="section-contact" id="explore">
+    <section class="section-contact" id="contact">
         <div class="contact-section">
             <h2>Contact Us</h2>
             <form id="contactForm">
@@ -121,15 +121,16 @@
                     <input type="text" class="form-control" id="notes" placeholder="Notes" required>
                 </div>
             </div>
-            <div class="text-align-center">
+            <div class="text-center">
                 <button type="submit" class="btn btn-primary">Save</button>
             </div>
             </form>
         </div>
-    </div>
+    </section>
+    <!-- Contact Form Section -->
 
     <!-- Footer -->
-    <footer class="footer" id="testimonial">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col">
@@ -160,33 +161,28 @@
                         <li><a href="#">dress</a></li>
                     </ul>
                 </div>
-                <!-- <div class="footer-col">
+                <div class="footer-col">
                     <h4>follow us</h4>
                     <div class="social-links">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
    </footer>
     <!-- End Footer -->
 
     <!-- Ion Icons Js -->
-    <script
-      type="module"
-      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
-    ></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <!-- Swiper Js -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+    <!-- Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <!-- JS -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
+
   </body>
 </html>
